@@ -34,7 +34,7 @@ export default function Home() {
         <h1
           className={`select-none text-2xl font-semibold flex  place-items-center my-6`}
         >
-          "Prawda" words Counter
+          Licznik słów "Prawda"
         </h1>
 
         <div className="relative flex flex-col place-items-center z-10">
