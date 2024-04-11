@@ -6,7 +6,6 @@ const Counter = () => {
 
   // Increase counter
   const increase = () => {
-    console.log("dupa");
     setCounter((count) => count + 1);
   };
 
