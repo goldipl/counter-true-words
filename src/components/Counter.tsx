@@ -27,19 +27,19 @@ const Counter = () => {
       </div>
       <div className="pointer-events-auto text-2xl font-semibold flex place-items-center mt-8">
         <button
-          className="flex select-none pointer-events-auto mx-3 pointer rounded-lg border border-transparent px-5 py-4 bg-gray-100 border-gray-300 hover:border-neutral-400  hover:bg-neutral-500/10"
+          className="flex select-none pointer-events-auto mx-3 pointer rounded-lg border border-transparent px-5 py-4 bg-gray-100 border-gray-300 hover:border-neutral-400 hover:bg-neutral-500/10 dark:bg-zinc-800/30 lg:dark:bg-zinc-800/3"
           onClick={increase}
         >
           +
         </button>
         <button
-          className="flex select-none pointer-events-auto mx-3 pointer rounded-lg border border-transparent px-5 py-4 bg-gray-100 border-gray-300 hover:border-neutral-400  hover:bg-neutral-500/10"
+          className="flex select-none pointer-events-auto mx-3 pointer rounded-lg border border-transparent px-5 py-4 bg-gray-100 border-gray-300 hover:border-neutral-400 hover:bg-neutral-500/10 dark:bg-zinc-800/30 lg:dark:bg-zinc-800/3"
           onClick={decrease}
         >
           -
         </button>
         <button
-          className="flex select-none pointer-events-auto mx-3 pointer rounded-lg border border-transparent px-5 py-4 bg-gray-100 border-gray-300 hover:border-neutral-400  hover:bg-neutral-500/10"
+          className="flex select-none pointer-events-auto mx-3 pointer rounded-lg border border-transparent px-5 py-4 bg-gray-100 border-gray-300 hover:border-neutral-400 hover:bg-neutral-500/10 dark:bg-zinc-800/30 lg:dark:bg-zinc-800/3"
           onClick={reset}
         >
           Reset
